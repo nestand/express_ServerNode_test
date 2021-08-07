@@ -1,0 +1,20 @@
+{
+  "name": "my_express_server",
+  "version": "1.0.0",
+  "description": "my first server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestand/express_ServerNode_test.git"
+  },
+  "author": "Andrey Nesterov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestand/express_ServerNode_test/issues"
+  },
+  "homepage": "https://github.com/nestand/express_ServerNode_test#readme"
+}
