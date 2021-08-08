@@ -8,5 +8,11 @@ const express = require ("express");
  app.get("/", function(request, response){
      response.send("Hello, World! It's the TEST!");
  });
+
+ app.get("/about", function(request, response){
+    response.send("Hello! It's the second route. I'm testing GET");
+});
  
- app.listen(3000);
+ app.listen(3000, function(){
+     console.log("server started on port 3000");
+ });
